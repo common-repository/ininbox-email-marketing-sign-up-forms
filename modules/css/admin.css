@@ -1,0 +1,19 @@
+.table_in{
+	background:#fff !important;
+
+}
+.table_in tr th, .table_in tr td,{
+	text-align:center;
+}
+.mar_r{
+	margin-right:20px;
+}
+.l_upd{
+margin-top:10px;
+}
+.anchor1{
+	display:none;
+}
+.preview_thing{
+	cursor:pointer;
+}

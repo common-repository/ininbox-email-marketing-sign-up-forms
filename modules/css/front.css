@@ -1,0 +1,129 @@
+#status_div{
+	display:none;
+}
+.hidden{
+  display:none !important;
+}
+
+.clearfix{
+  clear:both;
+}
+.error_msg{
+	padding: 9px 6px 10px;
+background: coral;
+border: 1px dotted red;
+border-radius: 2px;
+-webkit-border-radius: 2px;
+-moz-border-radius: 2px;
+color:#fff;
+}
+.conf_msg{
+	padding: 9px 6px 10px;
+	background: #CF9;
+	border: 1px dotted #9C0;
+	border-radius: 2px;
+	-webkit-border-radius: 2px;
+	-moz-border-radius: 2px;
+	color:#fff;
+}
+#status_ajax{
+	display:none;
+}
+.button_block{
+	display:none;
+}
+.button_block{
+	text-align:center;
+}
+.marg_patch{
+	margin-top:5px;
+}
+.marg_patch:first-child{
+	margin-top:0px;
+}
+.error_message{
+	position:fixed;
+	top:40%;
+	z-index:10000;
+	width:400px;
+	left: 35%;
+	display:none;
+	
+}
+.error_message label{
+font-size: 16px;
+font-family: arial;
+}
+ a.btn-danger{
+	color:#fff !important;
+}
+.confirm_message{
+	position:fixed;
+	top:40%;
+	z-index:10000;
+	width:400px;
+
+	left: 35%;
+	display:none;
+	text-align:center;
+	font-size: 16px;
+font-family: arial;
+}
+.confirm_message .submit_booking{
+	margin:20px;
+}
+
+.alert_login{
+	background-color: #5bb75b;
+	border-color: #666666;
+	color: #fff;
+	text-align:center;
+	padding:10px;
+	-webkit-border-radius: 4px;
+-moz-border-radius: 4px;
+border-radius: 4px;
+font-size: 16px;
+font-family: arial;
+}
+.booking_done{
+	position:fixed;
+	top:40%;
+	z-index:10000;
+	width:400px;
+	height:40px;
+	left: 35%;
+	display:none;
+	text-align:center;
+	font-size: 16px;
+font-family: arial;
+}
+.alert_login a{
+	color: #da4f49;
+}
+.alert_login a:hover, .alert_login a:visited{
+	color: #bd362f;
+}
+.login-username label{
+	margin-left:15px;
+}
+.inline{
+	display:inline;
+}
+.patch_height{
+height: 16px !important;
+}
+.calendar_block tbody td div.alert-success, .calendar_block tbody td form, .datepicker{
+	margin-bottom:0px !important;
+}
+.fixed_width{
+	width:150px;
+	text-align: center;
+	padding: 5px 0 !important;
+}
+form .btn-success{
+	width:150px !important;
+}
+a.btn-success:visited, a.btn-danger:visited{
+{
+	color:white;
+}
